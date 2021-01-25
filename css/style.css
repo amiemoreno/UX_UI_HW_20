@@ -1,0 +1,385 @@
+nav {
+    display: inline;
+    vertical-align: top;
+    font-size: 30px;
+}
+
+nav li {
+    display: inline;
+    padding-right: 50px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.logo {
+    width: 23%;
+    padding: 1%;
+    text-align: center;
+}
+
+nav {
+    background-color: white;
+    z-index: 1;
+    transition: top 1s linear;
+}
+
+ul h2 {
+    font-weight: bold;
+}
+
+.sticky {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    border-top: 0;
+}
+
+header h1 {
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+h1 {
+    text-align: center;
+}
+
+ul {
+    font: normal normal normal 20px/43px Montserrat;
+    margin-top: 2px;
+}
+
+.heroImg {
+    height: 600px;
+    padding: 25px;
+}
+
+.hero img {
+    width: 100%;
+}
+
+.content {
+    width: 500px;
+    margin: 0 auto;
+}
+
+footer {
+    padding-left: 10px;
+    padding-right: 10px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+footer h1 {
+    text-align: center;
+}
+
+footer ul {
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    padding: 0;
+}
+
+.hero h1 {
+    position: absolute;
+    height: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.row {
+    width: 100%;
+}
+
+.row.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.centered-card {
+    padding: 0 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.solution {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 60px;
+}
+
+body {
+    margin: 0px;
+    font: normal normal normal 16px/24px Montserrat;
+}
+
+.designer {
+    text-align: left;
+    font: normal normal normal 54px Montserrat;
+    color: #000000;
+    width: 532px;
+    margin-left: 10%;
+    padding-top: 170px;
+}
+
+.overview-img {
+    padding-bottom: 16px;
+    object-fit: cover;
+}
+
+.overview-img+p {
+    text-align: center;
+}
+
+.logo {
+    width: 900px;
+}
+
+.grid {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card {
+    flex: 1 0 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 36px;
+}
+
+.project-img-wrap::before {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    content: "";
+    background: #f5f5ef;
+    width: 100%;
+    height: 100%;
+}
+
+.highlighted {
+    background-color: #f5f5ef;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.project-img-wrap {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+    align-items: center;
+}
+
+.project-btn {
+    background-color: black;
+    color: white;
+    padding: 16px;
+    font: inherit;
+    width: 150px;
+    height: 60px;
+    font-size: medium;
+}
+
+.about-text p {
+    padding-bottom: 20px;
+}
+
+.project-img {
+    max-width: 50%;
+    position: relative;
+}
+
+h1 {
+    text-transform: uppercase;
+    font: normal normal normal 48px/35px Montserrat;
+}
+
+.project-desc {
+    padding: 0 48px;
+    text-align: center;
+    text-justify: distribute;
+    max-width: 50%;
+}
+
+.about {
+    display: flex;
+    background: #f5f5ef;
+    padding: 0 64px;
+}
+
+.about-text {
+    height: 100%;
+    margin: auto;
+    padding-right: 48px;
+}
+
+.about img {
+    width: 100%;
+    height: 100%;
+}
+
+hr {
+    width: 100px;
+    margin-left: 0;
+}
+
+.process {
+    padding-top: 32px;
+}
+
+footer ul.icons {
+    display: flex;
+    width: 400px;
+    justify-content: space-evenly;
+}
+
+footer li {
+    padding: 0;
+}
+
+footer li:hover {
+    transform: scale(1.15);
+}
+
+footer img {
+    width: 50px;
+}
+
+section h1 {
+    padding-left: 64px;
+    padding-bottom: 22px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.navigation h1 a:hover {
+    color: rgb(136, 104, 67)
+}
+
+a:hover {
+    font-weight: 600;
+    color: black;
+}
+
+.card:hover .project-img,
+.card:hover .project-desc {
+    transform: scale(1.07);
+}
+
+nav h1 a:hover {
+    font-weight: 900;
+}
+
+
+/* BUTTON CODE */
+
+.button__horizontal::before,
+.button__vertical::before {
+    content: "";
+    position: absolute;
+    border: inherit;
+}
+
+.button__horizontal,
+.button__vertical {
+    position: absolute;
+    top: var(--horizontal-offset, 0);
+    right: var(--vertical-offset, 0);
+    bottom: var(--horizontal-offset, 0);
+    left: var(--vertical-offset, 0);
+    transition: transform 0.8s ease;
+    will-change: transform;
+}
+
+.button__horizontal::before {
+    top: calc(var(--vertical-offset) - var(--border-size));
+    bottom: calc(var(--vertical-offset) - var(--border-size));
+    left: calc(var(--vertical-offset) * -1);
+    right: calc(var(--vertical-offset) * -1);
+}
+
+.button__horizontal {
+    --vertical-offset: calc(var(--offset) * -1);
+    border-top: var(--border-size) solid currentcolor;
+    border-bottom: var(--border-size) solid currentcolor;
+}
+
+.button:hover .button__horizontal {
+    transform: scaleX(0);
+}
+
+.button__vertical::before {
+    top: calc(var(--horizontal-offset) * -1);
+    bottom: calc(var(--horizontal-offset) * -1);
+    left: calc(var(--horizontal-offset) - var(--border-size));
+    right: calc(var(--horizontal-offset) - var(--border-size));
+}
+
+.button__vertical {
+    --horizontal-offset: calc(var(--offset) * -1);
+    border-left: var(--border-size) solid currentcolor;
+    border-right: var(--border-size) solid currentcolor;
+}
+
+.button:hover .button__vertical {
+    transform: scaleY(0);
+}
+
+.button:hover {
+    background: rgba(100, 0, 0, 0.03);
+}
+
+.button {
+    --offset: 10px;
+    --border-size: 2px;
+    display: block;
+    position: relative;
+    padding: 1.5em 3em;
+    appearance: none;
+    border: 0;
+    background: transparent;
+    text-transform: uppercase;
+    letter-spacing: 0.25em;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 0;
+    box-shadow: inset 0 0 0 var(--border-size) currentcolor;
+    transition: background 0.8s ease;
+}
+
+section {
+    text-align: center;
+}
